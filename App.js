@@ -14,8 +14,7 @@ const LoginScreen = () => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Burada giriş işlemlerini yapabilirsiniz
-    // Örneğin email ve password'ü bir API'ye gönderebilir ve giriş başarılıysa bir yönlendirme yapabilirsiniz
+    // Burada giriş işlemlerini yapabiliriz
     console.log('Email:', email);
     console.log('Password:', password);
   };
