@@ -19,7 +19,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-// Frame bileşenini oluşturun ve sadece stil özelliklerini içersin
+// Frame bileşenini oluşturalım
 const Frame = () => {
   return (
     <View style={styles.frame} />
@@ -33,7 +33,6 @@ function App(): JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  // Çerçeveleri oluşturun ve 5 satır ve 3 sütun şeklinde yerleştirin
   const frames = [];
   for (let row = 0; row < 5; row++) {
     const rowFrames = [];
@@ -66,7 +65,6 @@ function App(): JSX.Element {
           <Button
             title=" BAŞLA "
             onPress={() => {
-              // Butona basıldığında yapılacak işlemleri burada belirleyebilirsiniz.
             }}
           />
         </View>
